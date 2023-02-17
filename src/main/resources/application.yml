@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/jwt_security
-    username: alibou
-    password: alibou
+    url: jdbc:postgresql://mouse.db.elephantsql.com/fksqyoke
+    username: fksqyoke
+    password: 0039NNBG6fAxs5lgihc1OG-xfR30D42t
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -11,5 +11,5 @@ spring:
     properties:
       hibernate:
         format_sql: true
-    database: postgresql
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+      database: postgresql
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
