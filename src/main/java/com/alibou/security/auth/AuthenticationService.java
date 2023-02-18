@@ -44,8 +44,10 @@ public class AuthenticationService {
         .orElseThrow();
     var jwtToken = jwtService.generateToken(user);
     return AuthenticationResponse.builder()
-        .token(jwtToken)
+            .token(jwtToken)
             .email(user.getEmail())
-        .build();
+            .firstname(user.getFirstname())
+            .lastname(user.getLastname())
+            .build();
   }
 }
