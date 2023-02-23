@@ -3,7 +3,7 @@ package com.alibou.security.products;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="shoes")
+@Table(name="products")
 public class Products {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -23,4 +23,8 @@ public class ProductRepository {
     public void deleteProduct(Long id) {
         repo.deleteById(id);
     }
+
+    public Object getProductsByStoreId(String storeId) {
+        return repo.findById(Long.valueOf(storeId));
+    }
 }
