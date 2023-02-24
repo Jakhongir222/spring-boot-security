@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Nintendo Switch",
+    "description": "A versatile gaming console that can be played on a TV or on the go.",
+    "storeId": "{storeId}",
+    "price": "299",
+    "quantity": "1",
+    "category": "Technology"
+  },
+  {
+    "id": 2,
+    "title": "Samsung Galaxy S21 Ultra",
+    "description": "A powerful phone with a 6.8-inch display and 5G connectivity.",
+    "storeId": "{storeId}",
+    "price": "1199",
+    "quantity": "1",
+    "category": "Technology"
+  },
+  {
+    "id": 3,
+    "title": "Nike Air Force 1",
+    "description": "Classic sneakers with a white leather upper and Nike Air cushioning.",
+    "storeId": "{storeId}",
+    "price": "90",
+    "quantity": "1",
+    "category": "Fashion"
+  },
+  {
+    "id": 4,
+    "title": "Kindle Paperwhite",
+    "description": "A waterproof e-reader with a high-resolution display and built-in light.",
+    "storeId": "{storeId}",
+    "price": "149",
+    "quantity": "1",
+    "category": "Technology"
+  },
+  {
+    "id": 5,
+    "title": "Bose QuietComfort 35 II",
+    "description": "Wireless noise-cancelling headphones with Alexa voice control.",
+    "storeId": "{storeId}",
+    "price": "299",
+    "quantity": "1",
+    "category": "Technology"
+  },
+  {
+    "id": 6,
+    "title": "Herschel Retreat Backpack",
+    "description": "A durable backpack with a padded 15-inch laptop sleeve and leather straps.",
+    "storeId": "{storeId}",
+    "price": "89",
+    "quantity": "1",
+    "category": "Fashion"
+  }
+]
